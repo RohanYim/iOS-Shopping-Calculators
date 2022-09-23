@@ -1,0 +1,12 @@
+/* 
+  Localizable.strings
+  Lab1
+
+  Created by Haoran Song on 9/10/22.
+  
+*/
+
+"Invalid Price" = "请输入正确的价格";
+"That's too much" = "你确定吗？这也太贵了";
+"Invalid discount" = "请输入正确的比例";
+"You're in: %@" = "所在地: %1$@";

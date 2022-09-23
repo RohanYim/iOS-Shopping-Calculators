@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		940F259728CD82FC00A36C41 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 940F259928CD82FC00A36C41 /* Localizable.strings */; };
 		945C150228C8F95B00E939C9 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 945C150128C8F95B00E939C9 /* AppDelegate.swift */; };
 		945C150428C8F95B00E939C9 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 945C150328C8F95B00E939C9 /* SceneDelegate.swift */; };
 		945C150628C8F95B00E939C9 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 945C150528C8F95B00E939C9 /* ViewController.swift */; };
@@ -16,6 +17,10 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		940F259828CD82FC00A36C41 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
+		940F259A28CD830A00A36C41 /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hans"; path = "zh-Hans.lproj/Main.strings"; sourceTree = "<group>"; };
+		940F259B28CD830A00A36C41 /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hans"; path = "zh-Hans.lproj/LaunchScreen.strings"; sourceTree = "<group>"; };
+		940F259C28CD830A00A36C41 /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hans"; path = "zh-Hans.lproj/Localizable.strings"; sourceTree = "<group>"; };
 		945C14FE28C8F95B00E939C9 /* Lab1.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Lab1.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		945C150128C8F95B00E939C9 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		945C150328C8F95B00E939C9 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -63,6 +68,7 @@
 				945C150A28C8F95D00E939C9 /* Assets.xcassets */,
 				945C150C28C8F95D00E939C9 /* LaunchScreen.storyboard */,
 				945C150F28C8F95D00E939C9 /* Info.plist */,
+				940F259928CD82FC00A36C41 /* Localizable.strings */,
 			);
 			path = Lab1;
 			sourceTree = "<group>";
@@ -109,6 +115,7 @@
 			knownRegions = (
 				en,
 				Base,
+				"zh-Hans",
 			);
 			mainGroup = 945C14F528C8F95B00E939C9;
 			productRefGroup = 945C14FF28C8F95B00E939C9 /* Products */;
@@ -126,6 +133,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				945C150E28C8F95D00E939C9 /* LaunchScreen.storyboard in Resources */,
+				940F259728CD82FC00A36C41 /* Localizable.strings in Resources */,
 				945C150B28C8F95D00E939C9 /* Assets.xcassets in Resources */,
 				945C150928C8F95B00E939C9 /* Main.storyboard in Resources */,
 			);
@@ -147,10 +155,20 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
+		940F259928CD82FC00A36C41 /* Localizable.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				940F259828CD82FC00A36C41 /* en */,
+				940F259C28CD830A00A36C41 /* zh-Hans */,
+			);
+			name = Localizable.strings;
+			sourceTree = "<group>";
+		};
 		945C150728C8F95B00E939C9 /* Main.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
 				945C150828C8F95B00E939C9 /* Base */,
+				940F259A28CD830A00A36C41 /* zh-Hans */,
 			);
 			name = Main.storyboard;
 			sourceTree = "<group>";
@@ -159,6 +177,7 @@
 			isa = PBXVariantGroup;
 			children = (
 				945C150D28C8F95D00E939C9 /* Base */,
+				940F259B28CD830A00A36C41 /* zh-Hans */,
 			);
 			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
@@ -170,6 +189,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
@@ -230,6 +250,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";

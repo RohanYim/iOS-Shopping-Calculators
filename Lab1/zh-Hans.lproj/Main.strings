@@ -1,0 +1,60 @@
+
+/* Class = "UILabel"; text = "$0.00"; ObjectID = "57d-Mm-rPf"; */
+"57d-Mm-rPf.text" = "$0.00";
+
+/* Class = "UILabel"; text = "Invalid discount"; ObjectID = "EQa-Lv-SGG"; */
+"EQa-Lv-SGG.text" = "请输入正确的价格";
+
+/* Class = "UILabel"; text = "State not on the list, please enter the tax manually"; ObjectID = "Jdc-dQ-PMN"; */
+"Jdc-dQ-PMN.text" = "区域不在可计算范围，请手动输入税额比例";
+
+/* Class = "UITextField"; placeholder = "e.g., 5"; ObjectID = "LPK-WM-4Tb"; */
+"LPK-WM-4Tb.placeholder" = "例如， 5";
+
+/* Class = "UILabel"; text = "0.00"; ObjectID = "MeY-WV-kvf"; */
+"MeY-WV-kvf.text" = "0.00";
+
+/* Class = "UILabel"; text = "Original Price($)"; ObjectID = "Qun-Na-6gN"; */
+"Qun-Na-6gN.text" = "原价($)";
+
+/* Class = "UILabel"; text = "0.00%"; ObjectID = "YQd-rV-FIF"; */
+"YQd-rV-FIF.text" = "0.00%";
+
+/* Class = "UILabel"; text = "My Shopping Calculator"; ObjectID = "cP6-jp-2Rq"; */
+"cP6-jp-2Rq.text" = "我的购物车计算器";
+
+/* Class = "UITextField"; placeholder = "e.g., 20.0"; ObjectID = "dCm-br-vhN"; */
+"dCm-br-vhN.placeholder" = "例如, 20.0";
+
+/* Class = "UILabel"; text = "$0.00"; ObjectID = "dz3-u2-L4X"; */
+"dz3-u2-L4X.text" = "$0.00";
+
+/* Class = "UILabel"; text = "Price($)"; ObjectID = "gwm-1v-h99"; */
+"gwm-1v-h99.text" = "价格($)";
+
+/* Class = "UILabel"; text = "Discount(%)"; ObjectID = "i6q-ze-u31"; */
+"i6q-ze-u31.text" = "折扣(%)";
+
+/* Class = "UITextField"; placeholder = "e.g., 0.00"; ObjectID = "k91-Hh-PhR"; */
+"k91-Hh-PhR.placeholder" = "例如, 0.00";
+
+/* Class = "UILabel"; text = "Total($)"; ObjectID = "kU1-pH-upx"; */
+"kU1-pH-upx.text" = "总价($)";
+
+/* Class = "UIButton"; configuration.title = "Not accurate? Enter Tax Manually"; ObjectID = "rXs-mB-Ifj"; */
+"rXs-mB-Ifj.configuration.title" = "税额不正确？试试手动输入吧";
+
+/* Class = "UIButton"; normalTitle = "Button"; ObjectID = "rXs-mB-Ifj"; */
+"rXs-mB-Ifj.normalTitle" = "Button";
+
+/* Class = "UILabel"; text = "$0.00"; ObjectID = "sjc-gb-jtb"; */
+"sjc-gb-jtb.text" = "$0.00";
+
+/* Class = "UILabel"; text = "Sales Tax(%)"; ObjectID = "xj0-Lo-ATm"; */
+"xj0-Lo-ATm.text" = "销售税(%)";
+
+/* Class = "UIButton"; configuration.title = "Get Location"; ObjectID = "z6q-fY-jfs"; */
+"z6q-fY-jfs.configuration.title" = "获取地理位置";
+
+/* Class = "UIButton"; normalTitle = "Button"; ObjectID = "z6q-fY-jfs"; */
+"z6q-fY-jfs.normalTitle" = "Button";
